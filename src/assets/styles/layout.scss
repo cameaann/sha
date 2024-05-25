@@ -1,0 +1,24 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+// HEADER
+
+header{
+	width:100%;
+}
+.nav{
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+}
+.nav-item{
+	margin-inline-end: 5rem;
+}
+li>a{
+	text-decoration: none;
+}
