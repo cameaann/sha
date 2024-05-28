@@ -1,0 +1,49 @@
+.projects-section{
+	display: flex;
+	width: 110rem;
+	flex-wrap: wrap;
+	margin: 5rem auto;
+	gap:5rem;
+}
+
+.project{
+	display: flex;
+	flex-direction: column;
+	flex:25rem;
+	border: 1px solid rgb(199, 196, 196);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	&__img{
+		width:100%;
+		padding: 0;
+		margin: 0;
+		& >img{
+			width: 100%;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-bottom: 1px solid rgb(199, 196, 196);
+		}
+	}
+
+	&__content{
+		padding: 2rem;
+	}
+
+	&__title{
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	&__technologies{
+		font-style: italic;
+		font-size: 1.4rem;
+
+		&-sub-title{
+			font-weight: 600;
+			margin-inline-end: 1rem;
+		}
+	}
+
+	&__description{
+
+	}
+}
