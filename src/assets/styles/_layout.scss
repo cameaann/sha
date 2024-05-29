@@ -17,6 +17,22 @@ header{
 	width:100%;
 	position: fixed;
 	background-color: $backgroundColor;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logobox{
+	display: flex;
+	align-items: center;
+}
+.logo{
+ margin-right: 2rem;
+}
+
+.logo-name{
+	font-weight: 500;
+	color: $textColor;
 }
 .nav{
 	display: flex;
@@ -28,6 +44,7 @@ header{
 }
 li>a{
 	text-decoration: none;
+	color: $textColor;
 }
 
 .main{
