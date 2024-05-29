@@ -5,7 +5,7 @@
         "iconUrl": "/img/advice-generator.png",
         "src": "https://cameaann.github.io/advice-generator/",
 		"technologies":"rest Api, React",
-        "longDescription": "This app get random advice from rest Api."
+        "longDescription": "This app get random advice from rest Api. Challenge from Fronend Mentor."
     },
 	{
         "id": 2,
@@ -13,7 +13,7 @@
         "iconUrl": "/img/soc-dashboard.png",
         "src": "https://cameaann.github.io/soc-dashboard/",
 		"technologies":"Vite development environment, React, Nivo library, DayJs, Microsoft Azure cloud and Docker container",
-        "longDescription": "The application receives, analyzes, and presents log data and security alerts in a visual dashboard, enabling the SOC team to detect and respond to security threats."
+        "longDescription": "Group project. The application receives, analyzes, and presents log data and security alerts in a visual dashboard, enabling the SOC team to detect and respond to security threats."
     },
 	{
         "id": 3,
@@ -29,7 +29,7 @@
         "iconUrl": "/img/interactive-card.png",
         "src": "https://cameaann.github.io/interactiveCard/",
 		"technologies":"React",
-        "longDescription": "There is a form that you can fill out, and see the card details update in real time."
+        "longDescription": "There is a form that you can fill out, and see the card details update in real time. Challenge from Fronend Mentor."
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "iconUrl": "/img/github-user-search.png",
         "src": "https://cameaann.github.io/github-user-search-api/",
 		"technologies":"rest Api, React",
-        "longDescription": "GitHub user search app using the GitHub users API"
+        "longDescription": "GitHub user search app using the GitHub users API. Challenge from Fronend Mentor."
     },
 	{
         "id": 6,
