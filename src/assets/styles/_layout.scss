@@ -1,0 +1,52 @@
+@import "./variables";
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+// HEADER
+
+header{
+	width:100%;
+	position: fixed;
+	background-color: $backgroundColor;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logobox{
+	display: flex;
+	align-items: center;
+}
+.logo{
+ margin-right: 2rem;
+}
+
+.logo-name{
+	font-weight: 500;
+	color: $textColor;
+}
+.nav{
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+}
+.nav-item{
+	margin-inline-end: 5rem;
+}
+li>a{
+	text-decoration: none;
+	color: $textColor;
+}
+
+.main{
+	padding-block-start: 10rem;
+}
