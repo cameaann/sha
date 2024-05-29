@@ -34,7 +34,7 @@
     {
         "id": 5,
         "description": "GitHub user search Api",
-        "iconUrl": "/img/github-user-search.png",
+        "iconUrl": "public/img/github-user-search.png",
         "src": "https://cameaann.github.io/github-user-search-api/",
 		"technologies":"rest Api, React",
         "longDescription": "GitHub user search app using the GitHub users API. Challenge from Fronend Mentor."
