@@ -2,7 +2,7 @@
     {
         "id": 1,
         "description": "Advice generator",
-        "iconUrl": "/img/advice-generator.png",
+        "iconUrl": "/sha/img/advice-generator.png",
         "src": "https://cameaann.github.io/advice-generator/",
 		"technologies":"rest Api, React",
         "longDescription": "This app get random advice from rest Api. Challenge from Fronend Mentor."
@@ -10,7 +10,7 @@
 	{
         "id": 2,
         "description": "SOC Dashboard",
-        "iconUrl": "/img/soc-dashboard.png",
+        "iconUrl": "/sha/img/soc-dashboard.png",
         "src": "https://cameaann.github.io/soc-dashboard/",
 		"technologies":"Vite development environment, React, Nivo library, DayJs, Microsoft Azure cloud and Docker container",
         "longDescription": "Group project. The application receives, analyzes, and presents log data and security alerts in a visual dashboard, enabling the SOC team to detect and respond to security threats."
@@ -18,7 +18,7 @@
 	{
         "id": 3,
         "description": "Kahvikauppa",
-        "iconUrl": "/img/coffee-shop.png",
+        "iconUrl": "/sha/img/coffee-shop.png",
         "src": "https://coffee-shop.wonderfulcliff-356171e4.northeurope.azurecontainerapps.io/",
 		"technologies":"Spring Boot development environment, Java, Thymeleaf, Javascript, Microsoft Azure cloud",
         "longDescription": "A prototype of online store that sells coffee equipment and coffee-related consumer products."
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "description": "Interactive card",
-        "iconUrl": "/img/interactive-card.png",
+        "iconUrl": "/sha/img/interactive-card.png",
         "src": "https://cameaann.github.io/interactiveCard/",
 		"technologies":"React",
         "longDescription": "There is a form that you can fill out, and see the card details update in real time. Challenge from Fronend Mentor."
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "description": "GitHub user search Api",
-        "iconUrl": "/img/github-user-search.png",
+        "iconUrl": "/sha/img/github-user-search.png",
         "src": "https://cameaann.github.io/github-user-search-api/",
 		"technologies":"rest Api, React",
         "longDescription": "GitHub user search app using the GitHub users API. Challenge from Fronend Mentor."
@@ -42,7 +42,7 @@
 	{
         "id": 6,
         "description": "Countries' Information",
-        "iconUrl": "/img/countries-information.png",
+        "iconUrl": "/sha/img/countries-information.png",
         "src": "https://cameaann.github.io/09-citrus-cafe/",
 		"technologies":"rest Api, React",
         "longDescription": "The application allows users to search for information about countries."
