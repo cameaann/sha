@@ -3,7 +3,7 @@ import { TProject } from "../TProject";
 const Project = ({project} : {project: TProject}) => {
 
 	return(
-		<div className="project">
+		<a href={project.src} className="project" target="blank">
 			<figure className="project__img">
 				<img src={project.iconUrl} alt="project image" />
 			</figure>
@@ -16,7 +16,7 @@ const Project = ({project} : {project: TProject}) => {
 					{project.technologies}</div>
 				<p className="project__description">{project.longDescription}</p>
 			</div>
-		</div>
+		</a>
 	)
 }
 

@@ -1,3 +1,5 @@
+@import "./variables";
+
 html{
 	font-size: 62.5%;
 }
@@ -14,7 +16,7 @@ body{
 header{
 	width:100%;
 	position: fixed;
-	background-color: #FFFFFF;
+	background-color: $backgroundColor;
 }
 .nav{
 	display: flex;
