@@ -6,3 +6,10 @@ export type TProject = {
 	technologies: string,
 	longDescription: string
 }
+
+export type TSkill = {
+	id: number,
+	name: string,
+	icon: string,
+	percent: number
+}

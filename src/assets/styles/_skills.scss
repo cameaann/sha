@@ -1,0 +1,60 @@
+@import "./_variables";
+
+.skills-section{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	gap:3rem;
+}
+
+.skill-card{
+	display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+	padding: 3rem 0rem 1rem 0rem;
+    border: 1.5px solid $borderColor2;
+
+	& > span >i{
+		font-size: 5rem;
+		color: $borderColor2;
+
+		&.html{
+			color: red;
+		}
+		&.css{
+			color: blue;
+		}
+		&.javascript{
+			color:rgb(22, 141, 245);
+		}
+		&.react{
+			color: #3998B6;
+		}
+		&.java{
+			color: #507E9C;
+		}
+		&.spring{
+			display: block;
+			width:4rem;
+			height: 4rem;
+			background-image: url("../../../public/img/spring.svg");
+			background-repeat: no-repeat;
+
+		}
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.skill-card{
+		flex-basis: 30%;
+	}
+}
+
+@media screen and (max-width: 429px) {
+	.skill-card{
+		flex-basis: 44%;
+	}
+}

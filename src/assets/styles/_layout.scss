@@ -11,6 +11,10 @@ body{
 	margin: 0;
 }
 
+h1, h2, h3{
+	font-family: "Wix Madefor Display", sans-serif;
+}
+
 // HEADER
 
 header{
@@ -20,6 +24,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	border-bottom: 1px solid $borderColor;
 }
 
 .logobox{
@@ -27,12 +32,13 @@ header{
 	align-items: center;
 }
 .logo{
- margin-right: 2rem;
+//  margin-right: 2rem;
 }
 
 .logo-name{
 	font-weight: 500;
 	color: $textColor;
+
 }
 .nav{
 	display: flex;
@@ -47,6 +53,87 @@ li>a{
 	color: $textColor;
 }
 
+
 .main{
 	padding-block-start: 10rem;
 }
+
+section{
+	width: 110rem;
+	margin: 0rem auto;
+	padding: 5rem 0;
+
+}
+
+h1{
+	margin-block-end: 5rem;
+	font-weight: 700;
+	font-family: "Wix Madefor Display", sans-serif;
+	font-size:3rem;
+}
+
+// Contact
+.contacts{
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+	&>li{
+		border: 1px solid $borderColor2;
+		margin-right: 2rem;
+	}
+}
+.contact-icon >i{
+	font-size: 3rem;
+
+	&.linked{
+		color: #0A66C2;
+	}
+	&.mail{
+		color: red;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	section{
+		width:80rem;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.nav-item{
+		font-size: 1.2rem;
+		margin-inline-end: 2rem;
+	}
+	section{
+		width:70rem;
+	}
+	h1{
+		font-size: 2rem;
+		margin-block-end: 3rem;
+	}
+}
+
+
+@media screen and (max-width: 429px) {
+	section{
+		width:90%;
+		padding: 2rem 0;
+	}
+
+	h1{
+		font-size: 2rem;
+		margin-block-end: 3rem;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	header{
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+}
+

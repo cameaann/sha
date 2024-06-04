@@ -1,0 +1,60 @@
+@import "./variables";
+
+
+.photo{
+	width:40rem;
+}
+.photo>img{
+	width:100%;
+}
+
+.photo-box{
+	display: flex;
+    margin: 0rem auto;
+    justify-content: center;
+	align-items: center;
+
+	&>p{
+		font-size: 3rem;
+		font-family: "Wix Madefor Display", sans-serif;
+		& >span{
+			font-weight: 700;
+			font-size: 4rem;
+
+		}
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.photo{
+		// width:30rem;
+		flex-basis: 30%;
+	}
+	.photo-box{
+		&>p{
+			font-size: 2rem;
+			text-align: center;
+			&>span{
+				font-size: 3rem;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 429px) {
+	.photo{
+		width:60%;
+	}
+	.photo-box{
+		flex-direction: column;
+
+		&>p{
+			font-size: 2rem;
+			text-align: center;
+			&>span{
+				font-size: 3rem;
+			}
+		}
+	}
+}

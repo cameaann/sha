@@ -1,4 +1,4 @@
-import { TProject } from "../TProject";
+import { TProject } from "../types";
 
 const Project = ({project} : {project: TProject}) => {
 

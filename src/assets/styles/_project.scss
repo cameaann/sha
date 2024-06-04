@@ -2,19 +2,16 @@
 
 .projects-section{
 	display: flex;
-	width: 110rem;
 	flex-wrap: wrap;
-	margin: 5rem auto;
 	gap:5rem;
 }
 
 .project{
 	display: flex;
 	flex-direction: column;
-	flex:25rem;
-	border: 1px solid $borderColor;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	flex-basis:30%;
+	border: 1px solid $borderColor2;
+	border-radius: 5px;
 	text-decoration: none;
     color: $textColor;
 	&__img{
@@ -25,7 +22,7 @@
 			width: 100%;
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
-			border-bottom: 1px solid $borderColor;
+			border-bottom: 1px solid $borderColor2;
 		}
 	}
 
@@ -35,7 +32,8 @@
 
 	&__title{
 		text-transform: uppercase;
-		font-weight: 500;
+		font-weight: 600;
+		color: $borderColor2;
 	}
 	&__technologies{
 		font-style: italic;
@@ -51,3 +49,34 @@
 
 	}
 }
+
+@media screen and (max-width: 1024px) {
+	.projects-section{
+		justify-content: center;
+		gap:3rem;
+	}
+
+	.project{
+		flex-basis: 30%;
+	}
+}
+@media screen and (max-width: 769px) {
+	.project{
+		flex-basis: 40%;
+	}
+}
+
+
+@media screen and (max-width: 429px) {
+
+	.projects-section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap:3rem;
+	}
+	.project{
+		flex-basis: 90%;
+	}
+}
+
