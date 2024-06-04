@@ -1,0 +1,38 @@
+[
+	{
+		"id":1,
+		"name":"HTML",
+		"icon":"fa-brands fa-html5",
+		"percent":100
+	},
+	{
+		"id":2,
+		"name":"CSS",
+		"icon":"fa-brands fa-css3",
+		"percent":100
+	},
+	{
+		"id":3,
+		"name":"JavaScript",
+		"icon":"fa-brands fa-square-js",
+		"percent":80
+	},
+	{
+		"id":4,
+		"name":"React",
+		"icon":"fa-brands fa-react",
+		"percent":60
+	},
+	{
+		"id":5,
+		"name":"JAVA",
+		"icon":"fa-brands fa-java",
+		"percent":50
+	},
+	{
+		"id":6,
+		"name":"Spring Boot",
+		"icon":"/sha/img/spring.svg",
+		"percent":60
+	}
+]
