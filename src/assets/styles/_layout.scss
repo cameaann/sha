@@ -1,24 +1,26 @@
 @import "./variables";
 
-html{
+html {
 	font-size: 62.5%;
 }
 
-body{
+body {
 	font-size: 1.6rem;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
 	font-family: "Wix Madefor Display", sans-serif;
 }
 
 // HEADER
 
-header{
-	width:100%;
+header {
+	width: 100%;
 	position: fixed;
 	background-color: $backgroundColor;
 	display: flex;
@@ -27,89 +29,101 @@ header{
 	border-bottom: 1px solid $borderColor;
 }
 
-.logobox{
+.logobox {
 	display: flex;
 	align-items: center;
 }
-.logo{
-//  margin-right: 2rem;
+
+.logo {
+	//  margin-right: 2rem;
 }
 
-.logo-name{
+.logo-name {
 	font-weight: 500;
 	color: $textColor;
 
 }
-.nav{
+
+.nav {
 	display: flex;
 	list-style: none;
 	text-transform: uppercase;
 }
-.nav-item{
+
+.nav-item {
 	margin-inline-end: 5rem;
 }
-li>a{
+
+li>a {
 	text-decoration: none;
 	color: $textColor;
 }
 
+.mobile-menu-btn {
+	display: none;
+}
 
-.main{
+
+.main {
 	padding-block-start: 10rem;
 }
 
-section{
+section {
 	width: 110rem;
 	margin: 0rem auto;
 	padding: 5rem 0;
 
 }
 
-h1{
+h1 {
 	margin-block-end: 5rem;
 	font-weight: 700;
 	font-family: "Wix Madefor Display", sans-serif;
-	font-size:3rem;
+	font-size: 3rem;
 }
 
 // Contact
-.contacts{
+.contacts {
 	list-style: none;
 	display: flex;
 	align-items: center;
 
-	&>li{
+	&>li {
 		border: 1px solid $borderColor2;
 		margin-right: 2rem;
 	}
 }
-.contact-icon >i{
+
+.contact-icon>i {
 	font-size: 3rem;
 
-	&.linked{
+	&.linked {
 		color: #0A66C2;
 	}
-	&.mail{
+
+	&.mail {
 		color: red;
 	}
 }
 
 
 @media screen and (max-width: 1024px) {
-	section{
-		width:80rem;
+	section {
+		width: 80rem;
 	}
 }
 
 @media screen and (max-width: 769px) {
-	.nav-item{
+	.nav-item {
 		font-size: 1.2rem;
 		margin-inline-end: 2rem;
 	}
-	section{
-		width:70rem;
+
+	section {
+		width: 70rem;
 	}
-	h1{
+
+	h1 {
 		font-size: 2rem;
 		margin-block-end: 3rem;
 	}
@@ -117,32 +131,58 @@ h1{
 
 
 @media screen and (max-width: 429px) {
-	section{
-		width:90%;
+	section {
+		width: 90%;
 		padding: 2rem 0;
 	}
 
-	h1{
+	h1 {
 		font-size: 2rem;
 		margin-block-end: 3rem;
 	}
 
-	.nav{
+	.mobile {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		position: absolute;
+		background-color: white;
+		list-style: none;
+		top: 7rem;
+		padding-inline-start: 0px;
+
+		&>.nav-item {
+			padding: 1rem;
+			border-bottom: 1px solid grey;
+			margin-inline-end: 0rem;
+			
+		}
+	}
+
+	.mobile-menu-btn {
+		display: block;
+	}
+
+	.nav {
 		display: none;
 	}
 
-	header{
+	header {
 		align-items: flex-start;
 		justify-content: flex-start;
 	}
 
-	.contacts{
+	.contacts {
 		flex-direction: column;
 
-		&>ul{
+		&>ul {
 			flex-direction: row;
 		}
 	}
 
+
 }
 
+// .hidden{
+// 	display: none;
+// }
