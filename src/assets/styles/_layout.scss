@@ -134,6 +134,10 @@ h1 {
 	section {
 		width: 90%;
 		padding: 2rem 0;
+
+		&> figure{
+			margin-inline-start: 2rem;
+		}
 	}
 
 	h1 {
@@ -155,12 +159,13 @@ h1 {
 			padding: 1rem;
 			border-bottom: 1px solid grey;
 			margin-inline-end: 0rem;
-			
+
 		}
 	}
 
 	.mobile-menu-btn {
 		display: block;
+		margin-inline-end: 2rem;
 	}
 
 	.nav {
@@ -168,8 +173,8 @@ h1 {
 	}
 
 	header {
-		align-items: flex-start;
-		justify-content: flex-start;
+		// align-items: flex-start;
+		justify-content: space-evenly;
 	}
 
 	.contacts {
@@ -182,7 +187,3 @@ h1 {
 
 
 }
-
-// .hidden{
-// 	display: none;
-// }
