@@ -39,10 +39,10 @@
 		&.spring{
 			display: block;
 			width:4rem;
-			height: 4rem;
+			height: 5rem;
 			background-image: url("../../../public/img/spring.svg");
 			background-repeat: no-repeat;
-
+			background-position-y: bottom;
 		}
 	}
 }
