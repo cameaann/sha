@@ -32,6 +32,7 @@ header {
 .logobox {
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .logo {
@@ -52,6 +53,7 @@ header {
 
 .nav-item {
 	margin-inline-end: 5rem;
+	cursor: pointer;
 }
 
 li>a {
@@ -149,17 +151,25 @@ h1 {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
-		position: absolute;
+		position: fixed;
 		background-color: white;
 		list-style: none;
+		// right:-35rem;
 		top: 7rem;
 		padding-inline-start: 0px;
+		transition: right 0.3s ease-in-out;
+
 
 		&>.nav-item {
 			padding: 1rem;
 			border-bottom: 1px solid grey;
 			margin-inline-end: 0rem;
 
+		}
+		&.show{
+			animation: backInRight;
+			animation-duration: .7s;
+			transition: right 0.3s ease-in-out;
 		}
 	}
 
@@ -173,7 +183,6 @@ h1 {
 	}
 
 	header {
-		// align-items: flex-start;
 		justify-content: space-evenly;
 	}
 
