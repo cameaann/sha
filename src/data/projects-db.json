@@ -19,7 +19,7 @@
         "id": 3,
         "description": "Kahvikauppa",
         "iconUrl": "/sha/img/coffee-shop.png",
-        "src": "https://coffee-shop.wonderfulcliff-356171e4.northeurope.azurecontainerapps.io/",
+        "src": "https://app-coffee-shop-2.politefield-c4736012.northeurope.azurecontainerapps.io/",
 		"technologies":"Spring Boot development environment, Java, Thymeleaf, Javascript, Microsoft Azure cloud",
         "longDescription": "A prototype of online store that sells coffee equipment and coffee-related consumer products."
     },
