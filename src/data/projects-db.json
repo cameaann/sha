@@ -43,7 +43,7 @@
         "id": 6,
         "description": "Countries' Information",
         "iconUrl": "/sha/img/countries-information.png",
-        "src": "https://cameaann.github.io/09-citrus-cafe/",
+        "src": "https://cameaann.github.io/06-maidet-tiedot/",
 		"technologies":"rest Api, React",
         "longDescription": "The application allows users to search for information about countries."
     }
