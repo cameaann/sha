@@ -4,27 +4,11 @@
         "description": "Advice generator",
         "iconUrl": "/sha/img/advice-generator.png",
         "src": "https://cameaann.github.io/advice-generator/",
-		"technologies":"rest Api, React",
-        "longDescription": "This app get random advice from rest Api. Challenge from Fronend Mentor."
-    },
-	{
-        "id": 2,
-        "description": "SOC Dashboard",
-        "iconUrl": "/sha/img/soc-dashboard.png",
-        "src": "https://cameaann.github.io/soc-dashboard/",
-		"technologies":"Vite development environment, React, Nivo library, DayJs, Microsoft Azure cloud and Docker container",
-        "longDescription": "Group project. The application receives, analyzes, and presents log data and security alerts in a visual dashboard, enabling the SOC team to detect and respond to security threats."
-    },
-	{
-        "id": 3,
-        "description": "Kahvikauppa",
-        "iconUrl": "/sha/img/coffee-shop.png",
-        "src": "https://app-coffee-shop-2.politefield-c4736012.northeurope.azurecontainerapps.io/",
-		"technologies":"Spring Boot development environment, Java, Thymeleaf, Javascript, Microsoft Azure cloud",
-        "longDescription": "A prototype of online store that sells coffee equipment and coffee-related consumer products."
+		"technologies":"Rest Api, React",
+        "longDescription": "This app get random advice from rest Api. Challenge from Frontend Mentor."
     },
     {
-        "id": 4,
+        "id": 2,
         "description": "Interactive card",
         "iconUrl": "/sha/img/interactive-card.png",
         "src": "https://cameaann.github.io/interactiveCard/",
@@ -32,12 +16,28 @@
         "longDescription": "There is a form that you can fill out, and see the card details update in real time. Challenge from Fronend Mentor."
     },
     {
-        "id": 5,
+        "id": 3,
         "description": "GitHub user search Api",
         "iconUrl": "/sha/img/github-user-search.png",
         "src": "https://cameaann.github.io/github-user-search-api/",
-		"technologies":"rest Api, React",
-        "longDescription": "GitHub user search app using the GitHub users API. Challenge from Fronend Mentor."
+		"technologies":"Rest Api, React",
+        "longDescription": "GitHub user search app using the GitHub users API. Challenge from Frontend Mentor."
+    },
+	{
+        "id": 4,
+        "description": "SOC Dashboard",
+        "iconUrl": "/sha/img/soc-dashboard.png",
+        "src": "https://cameaann.github.io/soc-dashboard/",
+		"technologies":"Vite, React, Nivo library, DayJs, Microsoft Azure cloud and Docker container",
+        "longDescription": "Group project. The application receives, analyzes, and presents log data and security alerts in a visual dashboard, enabling the SOC team to detect and respond to security threats."
+    },
+	{
+        "id": 5,
+        "description": "Kahvikauppa",
+        "iconUrl": "/sha/img/coffee-shop.png",
+        "src": "https://app-coffee-shop-2.politefield-c4736012.northeurope.azurecontainerapps.io/",
+		"technologies":"Spring Boot, Java, Thymeleaf, Javascript, Microsoft Azure cloud",
+        "longDescription": "A prototype of online store that sells coffee equipment and coffee-related consumer products."
     },
 	{
         "id": 6,
